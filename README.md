@@ -19,3 +19,13 @@ To set up the project, clone this repository and install the required dependenci
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
 pip install -r requirements.txt
+```
+Usage
+You can use the trained model in two ways:
+
+Jupyter Notebook: Open train_model.ipynb to explore the model training and evaluation process.
+Streamlit App: Run the Streamlit app to interactively upload MRI images and get predictions.
+Running the Streamlit App
+To run the Streamlit app, execute the following command:
+streamlit run app.py
+
